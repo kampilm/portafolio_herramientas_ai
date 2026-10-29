@@ -8,12 +8,12 @@
 ## 👥 Integrantes
 
 
-| Nombre completo                  | Matrícula |
-| :------------------------------- | :-------: |
-| Arteaga Martinez Jonathan Gael   | 198258-2  |
-| Lozano Delgadillo Carlos Eduardo | Matrícula |
-| Cruz Villa Oscar Ivan            | 198591-4  |
-| Juarez Oliva Jorge Santiago      | 198674-9  |
+| Nombre completo                  | 
+| :------------------------------- | 
+| Arteaga Martinez Jonathan Gael   | 
+| Lozano Delgadillo Carlos Eduardo | 
+| Cruz Villa Oscar Ivan            |
+| Juarez Oliva Jorge Santiago      |
 
 ## 1. Caso de uso
 
@@ -66,5 +66,5 @@ $$
 
 ## 5. Evidencia
 
-![[Captura de pantalla 2026-10-16 a la(s) 9.36.36.png]]
 
+![imagen](EVIDENCIAKAMPI.png)
