@@ -1,5 +1,5 @@
 | Comando | Para que sirve |
-|..|..|
+|:..|:..|
 | git config user.name | Configura el usuario | 
 | git config user.email | Configura un email |
 | git log --oneline | Muestra todos los commits |
