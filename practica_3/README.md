@@ -47,9 +47,7 @@ A([Usuario])-.->|Entrega|B[Imagen]-.->C[Stable Fast 3D]-.->|Devuelve|D[(Modelo 3
 
   
 $$
-
 \text{Memoria mínima} = 1B \times 4\ \text{bytes} \approx \ 4\ \text{GB}
-
 $$
 
 - **VRAM disponible en Colab:** 15 GB
