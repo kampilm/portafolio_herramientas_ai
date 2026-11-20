@@ -22,6 +22,9 @@ demo = gr.Interface(
     title="¿Qué hay en la foto?",
     description="Usa el modelo MobileNetV2 (google/mobilenet_v2_1.0_224) para clasificar tu imagen.",
     # ==========================================
+    # ===== MEJORA 2: fotos de ejemplo (un clic y responde) =====
+    examples=["ejemplos/GTA_6.png", "ejemplos/mi-foto.jpg"],
+    # ===========================================================
 )
 
 demo.launch()  # enciende la página en http://127.0.0.1:7860
