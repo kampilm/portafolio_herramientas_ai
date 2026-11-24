@@ -33,7 +33,7 @@ demo = gr.Interface(
     description="Usa el modelo MobileNetV2 (google/mobilenet_v2_1.0_224) para clasificar tu imagen.",
     # ==========================================
     # ===== MEJORA 2: fotos de ejemplo (un clic y responde) =====
-    examples=["ejemplos/GTA_6.png", "ejemplos/mi-foto.jpg"],
+    examples=["ejemplos/GTA_6.png", "ejemplos/mi-foto.jpg","ejemplos/Carro.png"],
     # ===========================================================
 )
 
