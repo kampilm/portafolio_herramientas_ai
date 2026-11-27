@@ -1,5 +1,7 @@
 import time  # MEJORA 3: para medir el tiempo
 import spaces
+import os
+from pathlib import Path
 import gradio as gr
 from transformers import pipeline
 
