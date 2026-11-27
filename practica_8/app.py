@@ -1,17 +1,19 @@
 import time  # MEJORA 3: para medir el tiempo
-
+import spaces
 import gradio as gr
 from transformers import pipeline
 
 # Carga el modelo una sola vez, al encender la app
 
+DISPOSITIVO = "cuda" if os.getenv("SPACES_ZERO_GPU") else "cpu"
 
 clasificador = pipeline(
     "image-classification",
     model="google/mobilenet_v2_1.0_224",
+    device=DISPOSITIVO
 )
 
-
+@spaces.GPU
 def clasificar(imagen):
     """Recibe una imagen PIL y regresa las 3 etiquetas más probables con su porcentaje."""
     # ===== MEJORA 3: medir cuánto tarda el modelo =====
@@ -36,7 +38,8 @@ demo = gr.Interface(
     # ==========================================
     # ===== MEJORA 2: fotos de ejemplo (un clic y responde) =====
     examples=["ejemplos/GTA_6.png", "ejemplos/mi-foto.jpg","ejemplos/Carro.png"],
+    cache_examples=False
     # ===========================================================
 )
 
-demo.launch(share=True)  # enciende la página en http://127.0.0.1:7860
+demo.launch()  # enciende la página en http://127.0.0.1:7860
