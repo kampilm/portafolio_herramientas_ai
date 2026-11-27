@@ -29,5 +29,7 @@ Estudio Ingeniería en IA en la Ibero Leon, me interesa mucho el machine learnin
 
 Cuenta de GitHub: [gael.arteaga3107@gmail.com](https://github.com/kampilm)
 
+## Mi space
 
+Link de spaces : [Space que-hay-en-la-foto](https://huggingface.co/spaces/Kampilm08/que-hay-en-la-foto)
 
